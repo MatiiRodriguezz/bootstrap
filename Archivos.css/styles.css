@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 60px 0;
+}
+ul li {
+  display: inline-block a;
+  display-text-decoration: none;
+  display-text-transform: uppercase;
+  display-text-align: center;
+  display-font-family: sans-serif;
+  display-font-size: 23px;
+  display-color: beige;
+  display-padding: 20px;
+  display-background-color: salmon;
+}/*# sourceMappingURL=styles.css.map */
