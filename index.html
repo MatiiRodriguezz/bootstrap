@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 2</title>
-    <link rel="stylesheet" href="styles.scss">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
    
     <header>
@@ -20,40 +20,41 @@
             <a class="nav-link active" href="./Paginas/Supermercados.html">Supermercados <span class="sr-only">(current)</span></a>
             <a class="nav-link active" href="./Paginas/Carrito.html">Carrito <span class="sr-only">(current)</span></a>
             <a class="nav-link active" href="./Paginas/Medios de pago.html">Medios de pago <span class="sr-only">(current)</span></a>
-        </head>
+       
       
 
           </div>
         </div>
       </nav>
    </header>
-   
+<style>
+    .flex-container{
+  display: flex;
+  background-color: bisque;
+  flex-direction: row;
 
-    <style>
+}
+  .flex-container div{
+      background-color: brown;
+      margin: 5px;
+      color: white;
+      flex-basis: 100%;
+  }
 
-        .flex-container{
-            display: flex;
-            background-color: bisque;
-            flex-direction: row;
+  
 
-        }
-            .flex-container div{
-                background-color: brown;
-                margin: 5px;
-                color: white;
-                flex-basis: 100%;
-            }
 
-            
+.flex-container div{
+   flex-basis:  100%;
+}
+</style>
+
+    
+
+        
         
 
-        .flex-container div{
-             flex-basis:  100%;
-        }
-
-        
-
-    </style>
+    
 
 <body class="bg-danger">
 
